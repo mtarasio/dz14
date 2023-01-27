@@ -1,0 +1,165 @@
+
+
+*{
+   margin: 0 auto;
+   box-sizing: border-box;
+}
+
+main{
+   padding: 13px 120px 90px 120px;
+   margin: 0 auto;
+   width: 100%;
+   max-width: 1440px;
+}
+
+a {
+   text-decoration: none;
+}
+
+header ul {
+   list-style: none;
+   display: flex;
+   margin: 0 auto;
+}
+
+.header-list {
+   display: flex;
+   align-items: center;
+   text-align: center;
+   width: 100%;
+}
+
+.lang {
+   display: block;
+   font-family: 'Tourney';
+   font-size: 22px;
+   line-height: 18px;
+   letter-spacing: 0.04em;
+   padding-right: 50px;
+}
+
+.header-list > li a {
+   font-family: 'Staatliches';
+   color: #000000;
+   text-transform:uppercase;
+   font-size: 22px;
+   line-height: 28px;
+   letter-spacing: 0.03em;
+}
+
+.slash {
+   display: block;
+   padding: 0 10px;
+   font-size: 22px;
+   line-height: 28px;
+   font-family: 'Staatliches';
+   color: #000000; 
+   letter-spacing: 0.03em;
+}
+
+.logo {
+   width: 100%;
+   max-width: 238px;
+   margin-right: 240px;
+   cursor: pointer;
+
+}
+
+.paige {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 80px;
+   align-items: start;
+   background-image: url(../img/bg-picture.svg);
+   background-position-x: right ;
+   background-position-y: 165px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
+
+.text-container {
+   width: 100%;
+   max-width: 785px;
+   padding-left: 30px;
+   margin-top: 80px;
+}
+
+.sticky {
+   width: 100%;
+   max-width: 385px;
+   position: sticky;
+   top: 10px;
+   padding-top: 80px;
+}
+
+.title {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   margin: 0 auto;
+   padding-bottom: 15px;
+   padding-top: 17px;
+   position: fixed;
+   top: 0;
+   z-index: 1;
+   width: 100%;
+   max-width: 1440px;
+   background: #fff;
+}
+
+h2 {
+   font-family: 'Francois One';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 48px;
+   letter-spacing: 0.04em;
+   text-transform: uppercase;
+   color: #000000;
+   padding-bottom: 40px;
+   position: relative;
+}
+
+.text-container > h2::before {
+   content: '';
+   position: absolute;
+   background-color: black;
+   height: 8px;
+   width: 100px;
+   display: block;
+   top: -20px;
+}
+
+sup {
+   vertical-align: text-top;
+   font-size: smaller;
+   font-family: 'Farro';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 30px;
+   letter-spacing: 0.04em;
+   color: #000000;
+}
+
+p {
+   padding-bottom: 70px;
+   font-family: 'PT Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 28px;
+   line-height: 48px;
+   color: #000000;
+}
+
+strong {
+   font-weight: bold;
+}
+i {
+   font-style: italic;
+}
+
+mark {
+   background: #ccc;
+}
